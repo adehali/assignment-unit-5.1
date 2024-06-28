@@ -14,7 +14,7 @@ const mySelf = {
   lastName: 'Ali', 
   hasSiblings: true, 
   shoeCount: 4, 
-  favThreeFoods: ["pasta", "rice", "anjera"]
+  favThreeFoods: ["Pasta", "Rice", "Anjera"]
 
 };
 console.log('A little about me:', mySelf);
@@ -57,3 +57,5 @@ console.log('My updated shoe count is:', mySelf.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+mySelf.favoriteColor = "Green"; 
+console.log('My updated object is:', mySelf);
